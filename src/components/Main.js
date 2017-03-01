@@ -15,7 +15,7 @@ class Main extends Component {
             </div>
             <div className="col-sm-8">
               <h4 className="todo-count">Currently {this.props.todos.length} todos in the list ({this.props.todos.filter((todo) => todo.complete).length} completed)</h4>
-              <TodoList todos={this.props.todos} />
+              <TodoList todos={this.props.todos} toggleTodo={this.props.toggleTodo} />
             </div>
           </div>
         </div>

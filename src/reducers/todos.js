@@ -1,7 +1,19 @@
 
 function todos(state = [], action) {
-  console.log(state, action)
-  return state
+  switch(action.type) {
+    case 'TODO_TOGGLE':
+      const idx = action.index
+      // What we're doing here :
+      // returning a new array contaning the same data as before
+      // except for the toggled todo that we copy and modify```
+      return [
+        ...state.slice(0, idx),
+        {...state[idx], complete: !state[idx].complete},
+        ...state.slice(idx + 1)
+      ]
+    default:
+      return state
+  }
 }
 
 export default todos;
