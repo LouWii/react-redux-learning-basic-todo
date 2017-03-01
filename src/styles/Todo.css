@@ -1,0 +1,13 @@
+.Todo {
+  margin-bottom: 10px;
+}
+.Todo .box input {
+  transform: scale(1.5);
+}
+.Todo .text {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.Todo.completed .text {
+  text-decoration: line-through;
+}
