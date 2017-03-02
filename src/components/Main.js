@@ -11,7 +11,7 @@ class Main extends Component {
   handleTodoSubmit(e) {
     e.preventDefault()
     this.props.addTodo(this.refs.todoText.value)
-    this.refs.todoText.value = ""
+    this.refs.todoForm.reset()
   }
   clearCompletedTodos(e) {
     this.props.clearCompletedTodos()
