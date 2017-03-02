@@ -13,4 +13,10 @@ class Todo extends React.Component  {
   }
 }
 
+Todo.propTypes = {
+  todo: function(props, propName, componentName) {
+    // Do a test against props[propName] to check that our todo prop is correctly structured
+  }
+}
+
 export default Todo;
