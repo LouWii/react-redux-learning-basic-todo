@@ -11,6 +11,11 @@ function todos(state = [], action) {
         {...state[idx], complete: !state[idx].complete},
         ...state.slice(idx + 1)
       ]
+    case 'TODO_ADD':
+      return [
+        ...state,
+        {text: action.text, complete: false}
+      ]
     default:
       return state
   }
