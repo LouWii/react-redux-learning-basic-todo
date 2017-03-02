@@ -16,6 +16,8 @@ function todos(state = [], action) {
         ...state,
         {text: action.text, complete: false}
       ]
+    case 'TODO_CLEAR':
+      return state.filter((todo) => !todo.complete)
     default:
       return state
   }

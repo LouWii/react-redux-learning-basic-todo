@@ -12,3 +12,9 @@ export function toggleTodo(index) {
     index
   }
 }
+
+export function clearCompletedTodos() {
+  return {
+    type: 'TODO_CLEAR',
+  }
+}
