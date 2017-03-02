@@ -14,3 +14,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Official Redux Todo app](https://github.com/reactjs/redux/tree/master/examples/todos)
 
 [Video courses about React, Redux and React Router](https://learnredux.com/)
+
+[Reddit posts fetching using React and Redux](https://github.com/reactjs/redux/blob/master/docs/advanced/ExampleRedditAPI.md)
