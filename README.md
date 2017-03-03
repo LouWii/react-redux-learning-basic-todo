@@ -16,3 +16,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Video courses about React, Redux and React Router](https://learnredux.com/)
 
 [Reddit posts fetching using React and Redux](https://github.com/reactjs/redux/blob/master/docs/advanced/ExampleRedditAPI.md)
+
+[How to use localStorage with Redux - SO](http://stackoverflow.com/a/37690899/1740412)
