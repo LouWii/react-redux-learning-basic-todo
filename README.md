@@ -17,4 +17,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [Reddit posts fetching using React and Redux](https://github.com/reactjs/redux/blob/master/docs/advanced/ExampleRedditAPI.md)
 
-[How to use localStorage with Redux - SO](http://stackoverflow.com/a/37690899/1740412)
+[How to use LocalStorage with Redux - SO](http://stackoverflow.com/a/37690899/1740412)
+
+[Persisting state to LocalStorage video course - Egghead](https://egghead.io/lessons/javascript-redux-persisting-the-state-to-the-local-storage#/tab-transcript)
